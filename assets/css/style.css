@@ -526,7 +526,7 @@ footer{
         color: white;
     }
     #mainmenu{
-        display: block;
+        display: none;
     }
     #navigasi{
         display: block;
