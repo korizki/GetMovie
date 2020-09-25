@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Baloo Tammudu 2', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#navigasi {
+    background-color: #0f3460;
+    line-height: 55px;
+    padding: 0 40px 0 20px;
+    box-shadow: 0 px 20px rgba(128, 128, 128, 0.934);
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav{
+    display: flex;
+}
+#navigasi h3{
+    position: relative;
+    top: 4px;
+    color: #52575d;
+    font-size: 1.5em;
+    display: inline;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #f6f4e6;
+}
+.right-icon{
+    top: 10px;
+    position: absolute;
+    left: 300px;
+    display: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-top: 4px;
+    line-height: 48px;
+}
+nav ul li {
+    padding: 0 30px;
+    color: #f6f4e6;
+    opacity: 0.7;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+}
+nav li:hover{
+    opacity: 1;
+    border-bottom: 3px solid #e94560;
+}
+.header{
+    background-image: url('thumb-1920-1002384.jpg');
+    height: 650px;
+    background-position: right 40% top 40%;
+    padding: 5em 0 0 3em;
+    display: block;
+}
+.hcontent{
+    width: 50%;
+    font-size: 3em;
+    color: #16213e;
+    line-height: 1.3em;
+}
+.header p{
+    margin-top: 2em;
+    width: 50%;
+    line-height: 1.5em;
+}
+.register{
+    padding: 0em 2.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 1.1em;
+    margin-top: 1em;
+    border: 1px solid #e94560;
+    background-color: transparent;
+    color: #e94560;
+    font-weight: 600;
+    border-radius: 0.4em;
+    cursor: pointer;
+}
+.register:focus{
+    outline: none;
+}
+.register:active{
+    position: relative;
+    top: 4px;
+}
+.register:hover{
+    box-shadow: 0 0 50px #0f336070;
+    background-color: #e94560;
+    transition: all 0.4s;
+    color: white;
+}
+.container{
+    margin: 3em 0;
+    width: 80%;
+    margin: 0 auto;
+}
+.full {
+    width: 100%;
+    background-color: #e94560;
+    margin: 50px 0px;
+    padding: 50px 0px;
+}
+.benefit{
+    padding: 2em;
+}
+.b-icon{
+    width: 6em;
+}
+.b-item{
+    justify-content: space-around;
+    display: flex;
+}
+.benefit-item{
+    text-align: center;
+    margin: 0 1em;
+}
+.benefit-item:hover {
+    position: relative;
+    bottom: 8px;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+.container h2{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 2.7em;
+    color: #e94560;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.413);
+}
+.b-title{
+    font-size: 1.5em;
+    color: #0f3460;
+    font-weight: bold;
+}
+.benefit p{
+    color: #1a1a2e;
+    line-height: 1.3em;
+}
+.updates h2{
+    color: white;
+    border-bottom: 1px solid #fafafa51;
+}
+figcaption{
+    position: relative;
+    top: -12px;
+}
+.b-item{
+    display: flex;
+    justify-content: space-around;
+}
+.mov{
+    width: 15em;
+    object-fit: cover;
+    object-position: center;
+    height: 20em;
+}
+.box-mov{
+    background-color: #1a1a2e;
+    padding: 5px;
+    box-shadow: 0 0 50px 0 #1a1a2ea1; 
+}
+.u-title{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.streaming{
+    width: 100%;
+    border: 1px solid #e94560;
+    background-color: transparent;
+    color: #e94560;
+    padding-top: 0.4em;
+    font-weight: bold;
+    font-size: 1em;
+    opacity: 1;
+}
+.streaming:hover{
+    background-color: #e94560;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.lainnya{
+    color: #fafafa;
+    font-size: 1.5em;
+    text-align: right;
+    margin: 2em 2em 0 0;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.lainnya:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+.l-kotak{
+    border: 1px solid grey; 
+    border-radius: 10px;
+    padding: 3em;
+    color: #fafafa;
+    margin: 0px 0 50px 0;
+    background-color: #1a1a2e;
+    text-align: center;
+    height: 25em;
+    margin: 1em;
+    cursor: pointer;
+}
+.l-kotak:hover {
+    box-shadow: 0 0 50px 0 rgba(128, 128, 128, 0.9);
+    position: relative;
+    bottom: 8px;
+    transition: 0.3s;
+    background-color: #0f3460;
+}
+.l-kotak h3{
+    font-size: 2em;
+    border-bottom: 1px solid #fafafa;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 1.3em;
+}
+.l-kotak ul{
+    margin-top: 3em;
+}
+.l-kotak li {
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.rev{
+    background-color: #e94560;
+    color: white;
+    width: 100%;
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+}
+.hide{
+    visibility: hidden;
+}
+.service{
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.k-konten{
+    padding: 40px;
+    margin: 10px 0px;
+    background-color: #0f3460;
+    color: white;
+    text-align: center;
+}
+.k-konten h2{
+    color: white;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.k-konten p{
+    margin-top: 2em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+.form{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    }
+.form label{
+    margin-top: 10px;
+    padding-bottom: 0px;
+    display: block;
+    font-size: 1.2em;
+    position: relative;
+    top: 6px;
+}
+.form input{
+    padding: 14px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dedbdb;
+}
+.form input:focus{
+    box-shadow: 0 0 30px #1a1a2e;
+    outline: none;
+}
+.form textarea{
+    border-radius: 5px;
+    width: 95%;
+    height: 6em;
+    font-size: 1em;
+    background-color: #dedbdb;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 20px;
+}
+.form textarea:focus{
+    box-shadow: 0 0 30px #1a1a2e;
+    outline: none;
+}
+.form .submit{
+    margin-top: 10px;
+    border: 2px solid #e94560;
+    background-color: transparent;
+    color: #fafafa;
+    
+}
+.form .submit:hover{
+    background-color: #e94560;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.form .submit:focus{
+    display: relative;
+    top: 5px;
+}
+.flex{
+    display: flex;
+}
+.help{
+    width: 100%;
+    text-align: center;
+    background-color: #e94560;
+    padding: 2em;
+    margin-top: 3.9em;
+    border-radius: 2em;
+}
+.help h2{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    border: none;
+}
+.chaticon{
+    width: 15em;
+    position: relative;
+    bottom: 30px;
+}
+.help p{
+    position: relative;
+    bottom: 20px;
+}
+.start{
+    border: 1px solid #1a1a2e;
+    background-color: transparent;
+    padding-top: 0.2em;
+    color: white;
+    border-radius: 0.8em;
+    font-size: 1.3em;
+    width: 100%; 
+    cursor: pointer;
+}
+.start:hover{
+    background-color: #1a1a2e;
+    box-shadow: 0 0 40px 0 #1a1a2e8b;
+    transition: 0.3s;
+}
+.start:active{
+    position: relative;
+    top: 3px;
+    outline: none;
+}
+.start:focus{
+    outline: none;
+}
+.about{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    width: 40%;
+    border: 1px solid rgba(86, 84, 84, 0.249);
+    border-top: 7px solid #e94560;
+    border-radius: 1em;
+    background-color: rgba(242, 242, 242, 0.838);
+    cursor: pointer;
+}
+.about:hover{
+    position: relative;
+    bottom: 5px;
+}
+.about h2{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.profil{
+    width: 12em;
+    border-radius: 50%;
+    margin-top: 2em;
+    box-shadow: 0 0 50px 0 #6a6a7864;
+}
+.about h4{
+    color: #0f3460;
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end:0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.4em; 
+}
+.about p{
+    color: #0f3460;
+    font-family: arial;
+    margin: 0.1em;
+    font-size: 0.9em;
+}
+.profil2{
+    width: 50%;
+}
+.profil2img{
+    width: 30em;
+    position: relative;
+    margin-top: 3em;
+}
+footer{
+    background-color: #1a1a2e;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.footer-content{
+    padding: 2em;
+}
+.footer-content h3{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+.footer-content p{
+    font-size: 0.9em;;
+}
+.sm {
+    line-height: 1.4em;
+}
+.smpv{
+    line-height: 2.5em;
+}
+.pt{
+    margin-bottom: 0.7em;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul li{
+        padding: 0 20px;
+    }
+    .hcontent{
+        width: 70%;
+        font-size: 2.5em;
+    }
+    .benefit-item{
+        margin: 1.2em 0.3em;
+    }
+    .b-title{
+        line-height: 1.2em;
+        height: 1.9em;
+        vertical-align: center;
+    }
+    .benefit h2{
+        line-height: 1.3em;
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+    }
+    .b-item{
+        display: block;
+        text-align: center;
+    }
+    .box-mov{
+        display: inline-block;
+        margin: 1em;
+    }
+    .mov{
+        width: 14em;
+    }
+    .lainnya{
+        margin-right: 2em;
+    }
+    .form{
+        width: 100%;
+        margin-left: 1em;
+    }
+    .about{
+        width: 80%;
+    }
+    .flex{
+        display: block;
+    }
+    .profil2img{
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-content h3{
+        font-size: 1.3em;
+        line-height: 1.3em;
+    }
+    .pt{
+        margin-top: 1em;
+        line-height: 1.2em;
+        margin-bottom: 0.4em;
+    }
+    .sm{
+        line-height: 1.4em;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .right-icon{
+        display: block;
+        top: 8px;
+        font-size: 1.8em;
+        color: white;
+    }
+    #mainmenu{
+        display: block;
+    }
+    #navigasi{
+        display: block;
+    }
+    nav ul{
+        display: block;
+        width: 100%;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    .hcontent{
+        width: 100%;
+        font-size: 1.8em;
+    }
+    .header{
+        padding: 2em 2em;
+        background-position: right 45% top 50%;
+    }
+    .header p{
+        width: 90%;
+        margin-top: 4em;
+    }
+    .register {
+        background-color: #e94560;
+        color: #fafafa;
+        font-size: 0.9em; 360
+    }
+    .benefit h2 {
+        font-size: 1.5em;
+    }
+    .b-item{
+        display: block;
+    }
+    .benefit p {
+        margin-bottom: 30px;
+        font-size: 0.9em;
+    }
+    .b-title{
+        height: 1.7em;
+        font-size: 1.3em;
+    }
+    .updates h2{
+        font-size: 1.8em;
+
+        margin-bottom: 20px;
+    }
+    .full{
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .l-kotak{
+        height: 21em;
+    }
+    .service h2{
+        padding: 0.5em 1em;
+        line-height: 1.4em;
+        font-size: 1.6em;
+    }
+    .l-kotak h3{
+        font-size: 1.8em;
+    }
+    .l-kotak li{
+        font-size: 0.9em;
+    }
+    .l-kotak ul{
+        margin-top: 2em;
+    }
+    .container{
+        width: 100%;
+    }
+    .k-konten{
+        width: 100%;
+    }
+    .k-konten h2{
+        font-size: 1.6em;
+    }
+    .k-konten p{
+        font-size: 1em;
+    }
+    .form{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+    }
+    .form label{
+        font-size: 1em;
+    }
+    .form input{
+        font-size: 0.9em;
+        width: 100%;
+    }
+    .form textarea{
+        width: 100%;
+    }
+    .flex{
+        display: block;
+    }
+    .help{
+        padding: 2em;
+    }
+    .help p{
+        bottom: 2.5em;
+    }
+    .start{
+        font-size: 1em;
+    }
+    .about{
+        width: 84%;
+        margin: 2em 2em;
+    }
+    .about h2{
+        font-size: 1.8em;
+    }
+    .profil{
+        width: 10em;
+    }
+    .about h4{
+        font-size: 1.3em;
+        margin-top: 0.5em;
+    }
+    .about p{
+        font-size: 0.7em;
+        margin: 0em 0;
+    }
+    .profil2img{
+        width: 25em;
+    }
+    footer{
+        display: block;
+    }
+    .footer-content h3{
+        line-height: 1.2em;
+    }
+    .footer-content{
+        border-bottom: 1px solid rgba(34, 60, 82, 0.523);
+    }
+    footer{
+        text-align: center;
+    }
+}
