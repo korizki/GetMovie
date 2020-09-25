@@ -133,12 +133,11 @@ nav li:hover{
     transition-duration: 2s;
 }
 .container h2{
-    padding-top: 1em;
     text-align: center;
     font-size: 2.7em;
     color: #e94560;
     margin-bottom: 50px;
-    margin-top: 50px;
+    
     border-bottom: 1px solid rgba(128, 128, 128, 0.413);
 }
 .b-title{
@@ -339,7 +338,6 @@ figcaption{
     text-align: center;
     background-color: #e94560;
     padding: 2em;
-    margin-top: 3.9em;
     border-radius: 2em;
 }
 .help h2{
